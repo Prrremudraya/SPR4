@@ -5,13 +5,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import page_object.AboutRentPage;
-import page_object.MainPage;
-import page_object.PersonalDataOrderPage;
+import page_objectt.AboutRentPage;
+import page_objectt.MainPage;
+import page_objectt.PersonalDataOrderPage;
 
 import java.time.Duration;
 
@@ -48,8 +46,8 @@ public class OrderScooterTest {
     @Parameterized.Parameters
     public static Object[][] getTestData() {
         return new Object[][] {
-                {1, "Олег", "Иванов", "Москва", "Сокольники", "89996566633", "04.11.2022", "сутки", "До подъезда"},
-                {0, "Петр", "Клиш", "Москва", "Красносельская", "89996566644", "04.12.2022", "двое суток", "До квартиры"}
+                {1, "Ольга", "Иванова", "Москва", "Новокосино", "89996566633", "04.11.2022", "сутки", "До подъезда"},
+                {0, "Константин", "Клиш", "Москва", "Красносельская", "89996566644", "04.12.2022", "двое суток", "До квартиры"}
         };
     }
 
