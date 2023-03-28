@@ -5,13 +5,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import page_object.AboutRentPage;
-import page_object.MainPage;
-import page_object.PersonalDataOrderPage;
+import page_objectt.AboutRentPage;
+import page_objectt.MainPage;
+import page_objectt.PersonalDataOrderPage;
 
 import java.time.Duration;
 

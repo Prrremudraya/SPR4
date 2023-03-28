@@ -1,4 +1,4 @@
-package page_object;
+package page_objectt;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

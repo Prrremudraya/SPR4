@@ -4,10 +4,8 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import page_object.MainPage;
+import page_objectt.MainPage;
 
 
 @RunWith(Parameterized.class)
@@ -24,7 +22,7 @@ public class CheckImportantQuestionTest {
         this.response = response;
     }
 
-    @Parameterized.Parameters(name = "Стоимость булочки. Тестовые данные: {0} {1}")
+    @Parameterized.Parameters(name = "Стоимость булочки. И тестовые данные: {0} {1}")
     public static Object[][] getTestData() {
                 return new Object[][] {
                 {0, "Сутки — 400 рублей. Оплата курьеру — наличными или картой."},
